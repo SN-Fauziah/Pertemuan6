@@ -1,5 +1,6 @@
 # Tugas Pertemuan ke 5 & 6 - Bahasa Pemrograman
 Repository ini dibuat untuk memenuhi tugas pertemuan 6 <br><br>
+| ----- | ----- |
 | Nama | Siti Nur Fauziah |
 | NIM | 312010032 |
 | Kelas | TI.20.B1 |
