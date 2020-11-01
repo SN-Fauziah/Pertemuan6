@@ -59,7 +59,7 @@ npm=int(input())
 Hasil untuk mengisi inputan akan seperti ini :<br>
 ![Tugas 5](Foto/npm.PNG)<br>
 
-* Selanjutnya untuk menghasilkan output / mengisi inputan yang lainnya seperti Nickname, NPM, Born Place, Age/Umur, Home Address, dan Phone Number
+* Langkah selanjutnya untuk menghasilkan output / mengisi inputan yang lainnya seperti Nickname, Born Place, Home Address, bisa mengikuti source code/syntax pengisian Fullname, sedangkan untuk Age, dan Phone Number bisa mengikuti syntax untuk penginputan NPM.<br>
 
 
 
