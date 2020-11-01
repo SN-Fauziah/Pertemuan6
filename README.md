@@ -67,5 +67,11 @@ print("\nAssalamualaikum Wr, Wb.")
 * Fungsi <i>\n</i> pada syntax di atas adalah untuk memberi baris baru/enter/lebih sering dikenal newline.<br>
 * Sedangkan fungsi <i>print("...")</i> seperti yang sudah dibahas di atas, hasil dari syntax terserbut seperti di bawah ini.<br>
 ![Tugas 5](Foto/print.PNG)<br>
-
-
+* Yang terakhir untuk menampilkan semua hasil dari inputan di atas yaitu dengan mengetikkan syntax seperti di bawah<br>
+ ```python
+print(f"Let me introduce my self.My name is {fullname}, but you can call me {nickname}.My NPM's {npm}.I was born in {bornplace} and i am {age} years old. I am very glad if you want to invite my house in {address}.So, don't forget to call me before with the number {phonenumber}.")
+```
+* Fungsi <i>f</i> pada syntax di atas adalah agar bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + ).<br>
+* Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable
+Hasil dari output tersebut seperti berikut :<br>
+![Tugas 5](Foto/f.PNG)<br>
