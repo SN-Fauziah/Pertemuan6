@@ -56,10 +56,16 @@ print(270799)
 print("Please insert your NPM : ")
 npm=int(input())
 ```
-Hasil untuk mengisi inputan akan seperti ini :<br>
+* Hasil untuk mengisi inputan akan seperti ini :<br>
 ![Tugas 5](Foto/npm.PNG)<br>
 
 * Langkah selanjutnya untuk menghasilkan output / mengisi inputan yang lainnya seperti Nickname, Born Place, Home Address, bisa mengikuti source code/syntax pengisian Fullname, sedangkan untuk Age, dan Phone Number bisa mengikuti syntax untuk penginputan NPM.<br>
-
+* Lalu untuk syntax/source code<br>
+```python
+print("\nAssalamualaikum Wr, Wb.")
+```
+* Fungsi <i>\n</i> pada syntax di atas adalah untuk memberi baris baru/enter/lebih sering dikenal newline.<br>
+* Sedangkan fungsi <i>print("...")</i> seperti yang sudah dibahas di atas, hasil dari syntax terserbut seperti di bawah ini.<br>
+![Tugas 5](Foto/print.PNG)<br>
 
 
