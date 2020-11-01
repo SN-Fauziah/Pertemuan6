@@ -34,3 +34,14 @@ phonenumber=int(input())
 print("\nAssalamualaikum Wr, Wb.")
 print(f"Let me introduce my self.My name is {fullname}, but you can call me {nickname}.My NPM's {NPM}.I was born in {bornplace} and i am {age} years old. I am very glad if you want to invite my house in {address}.So, don't forget to call me before with the number {phonenumber}.")
 print("\nThank you.")```
+* Berikut untuk penjelasannya : <br>
+```python
+print("Please enter your Full name : ")
+fullname=input()
+```
+Source code di atas berfungsi untuk mencetak hasil / output berupa string " Please enter your full name : ", dan secara otomatis kita akan bisa mengisi / input nama kita.<br>
+Sedangkan untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
+```python
+print(270799)
+```
+Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi. <br>
