@@ -43,11 +43,14 @@ fullname=input()
 ```
 Source code di atas berfungsi untuk mencetak hasil / output berupa string " Please enter your full name : ", dan secara otomatis kita akan bisa mengisi / input nama kita.Seperti gambar di bawah ini <br>
 ![Tugas 5](Foto/inputnama.PNG)
+Syntax atau perintah <i>fullname=input()</i> seperti di atas tadi adalah source code untuk membuat inputan/variable.<br>
+Maksud Variable disini adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah fullname, atau lebih praktisnya kita sebut saja sebagai rumus untuk mengisi inputan dari source code <i>"Please enter your name :"</i>
 Sedangkan untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
 ```python
 print(270799)
 ```
 Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi seperti di bawah ini. <br>
-![Tugas 5](Foto/inputangka.PNG)
+![Tugas 5](Foto/inputangka.PNG)<br>
+
 
 
