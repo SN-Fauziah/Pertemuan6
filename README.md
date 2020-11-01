@@ -51,7 +51,7 @@ print(270799)
 ```
 * Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi seperti di bawah ini. <br>
 ![Tugas 5](Foto/inputangka.PNG)<br><br>
-* Namun untuk syntax output angka dalam program ini kita hanya perlu menambahkan kata <i>int<i> sebelum kata input seperti di bawah ini. <br>
+* Namun untuk syntax output angka dalam program ini kita hanya perlu menambahkan kata <i>int</i> sebelum kata input seperti di bawah ini. <br>
 ```python
 print("Please insert your NPM : ")
 npm=int(input())
