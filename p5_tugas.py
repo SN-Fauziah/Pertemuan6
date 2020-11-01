@@ -1,5 +1,6 @@
 print("Please enter your Full name : ")
 fullname=input()
+print(270799)
 print("Please enter your Nickname : ")
 nickname=input()
 print("Please insert your NPM : ")

@@ -41,10 +41,13 @@ Berikut untuk penjelasannya : <br>
 print("Please enter your Full name : ")
 fullname=input()
 ```
-Source code di atas berfungsi untuk mencetak hasil / output berupa string " Please enter your full name : ", dan secara otomatis kita akan bisa mengisi / input nama kita.<br>
+Source code di atas berfungsi untuk mencetak hasil / output berupa string " Please enter your full name : ", dan secara otomatis kita akan bisa mengisi / input nama kita.Seperti gambar di bawah ini <br>
+![Tugas 5](Foto/inputnama.PNG)
 Sedangkan untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
 ```python
 print(270799)
 ```
-Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi. <br>
+Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi seperti di bawah ini. <br>
+![Tugas 5](Foto/inputangka.PNG)
+
 
