@@ -41,16 +41,25 @@ Berikut untuk penjelasannya : <br>
 print("Please enter your Full name : ")
 fullname=input()
 ```
-Source code di atas berfungsi untuk mencetak hasil / output berupa string " Please enter your full name : ", dan secara otomatis kita akan bisa mengisi / input nama kita.Seperti gambar di bawah ini <br>
+* Source code di atas berfungsi untuk mencetak hasil / output berupa string " Please enter your full name : ", dan secara otomatis kita akan bisa mengisi / input nama kita.Seperti gambar di bawah ini <br>
 ![Tugas 5](Foto/inputnama.PNG)<br>
-Syntax atau perintah <i>fullname=input()</i> seperti di atas tadi adalah source code untuk membuat inputan/variable.<br>
+* Syntax atau perintah <i>fullname=input()</i> seperti di atas tadi adalah source code untuk membuat inputan/variable.<br>
 Maksud Variable disini adalah sebuah wadah penyimpanan data pada program yang akan digunakan selama program itu berjalan. Yang berfungsi sebagai variable dalam source code diatas adalah fullname, atau lebih praktisnya kita sebut saja sebagai rumus untuk mengisi inputan dari source code <i>"Please enter your name :"</i><br><br>
-Sedangkan untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
+* Sedangkan untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
 ```python
 print(270799)
 ```
-Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi seperti di bawah ini. <br>
-![Tugas 5](Foto/inputangka.PNG)<br>
+* Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi seperti di bawah ini. <br>
+![Tugas 5](Foto/inputangka.PNG)<br><br>
+* Namun untuk syntax output angka dalam program ini kita hanya perlu menambahkan kata <i>int<i> sebelum kata input seperti di bawah ini. <br>
+```python
+print("Please insert your NPM : ")
+npm=int(input())
+```
+Hasil untuk mengisi inputan akan seperti ini :<br>
+![Tugas 5](Foto/npm.PNG)<br>
+
+* Selanjutnya untuk menghasilkan output / mengisi inputan yang lainnya seperti Nickname, NPM, Born Place, Age/Umur, Home Address, dan Phone Number
 
 
 
