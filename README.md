@@ -7,7 +7,7 @@ Kelas   : TI.20.B1<br>
 #### DAFTAR ISI<br>
 | No | Description | Link|
 | ----- | ----- | ----- |
-| 1 | Tugas Pertemuan 5 | [Click Here] |
+| 1 | Tugas Pertemuan 5 | [Click Here](#tugas-pertemuan-5) |
 | 2 | Tugas Pertemuan 6 | [Click Here] |
 
 ## Tugas Pertemuan 5
@@ -72,6 +72,6 @@ print("\nAssalamualaikum Wr, Wb.")
 print(f"Let me introduce my self.My name is {fullname}, but you can call me {nickname}.My NPM's {npm}.I was born in {bornplace} and i am {age} years old. I am very glad if you want to invite my house in {address}.So, don't forget to call me before with the number {phonenumber}.")
 ```
 * Fungsi <i>f</i> pada syntax di atas adalah agar bisa memudahkan programmer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma ( , ) atau plus ( + ).<br>
-* Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable
+* Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable.<br>
 Hasil dari output tersebut seperti berikut :<br>
 ![Tugas 5](Foto/f.PNG)<br>
