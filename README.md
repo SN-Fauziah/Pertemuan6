@@ -5,7 +5,7 @@ Nama    : Siti Nur Fauziah<br>
 NIM     : 312010032<br>
 Kelas   : TI.20.B1<br>
 
-#### DAFTAR ISI<br>
+#### List<br>
 | No | Description | Link|
 | ----- | ----- | ----- |
 | 1 | Tugas Pertemuan 5 | [Click Here](#tugas-pertemuan-5) |
@@ -229,7 +229,7 @@ print('{0:7} | {2:7}'.format('Barang','QTY'))
 print('{0:7} | {2:7}'.format('Sendok','2'))
 print('{0:7} | {2:7}'.format('Garpu','17'))
 ```
-Hasil dari source code di atas adalah :
+Hasil dari source code di atas adalah :<br>
 ![Tugas 6](Foto/contoh.PNG)<br>
 
 Kita juga dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan .format() sebagai berikut :
@@ -237,7 +237,7 @@ Kita juga dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan k
 print('{:<27}{:^27}{:>27}'.format('Left','Middle','Right'))
 print('{:<27}{:^27}{:>27}'.format(27,07,99))
 ```
-Hasil dari source code di atas adalah :
+Hasil dari source code di atas adalah :<br>
 ![Tugas 6](Foto/contoh2.PNG)<br>
 
 * Sedangkan untuk hasil String Format 2 sesuai dengan tugas yang sudah diberikan oleh Dosen saya adalah seperti di bawah ini :
