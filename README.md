@@ -9,7 +9,9 @@ Kelas   : TI.20.B1<br>
 | No | Description | Link|
 | ----- | ----- | ----- |
 | 1 | Tugas Pertemuan 5 | [Click Here](#tugas-pertemuan-5) |
-| 2 | Tugas Pertemuan 6 - Lab 1 | [Click Here]( |
+| 2 | Tugas Pertemuan 6 - Lab 1 | [Click Here](#2-tugas-pertemuan-6---lab-1) |
+| 3 | Tugas Pertemuan 6 - Lab 2 | [Click Here](#3-pertemuan-6---lab-2) |
+| 4 | Tugas Pertemuan 6 - Lab 1-2 | [Click Here](#4-tugas-pertemuan-6---lab-1-2) |
 
 ## 1. Tugas Pertemuan 5
 Pertama saya akan menjelaskan Tugas Pertemuan ke 5 yaitu Membuat Program untuk menginputkan biodata yang terdiri dari Nama lengkap, Nickname, NPM, TTL, No Telp, dan Alamat :
