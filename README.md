@@ -13,7 +13,7 @@ Kelas   : TI.20.B1<br>
 ## 1. Tugas Pertemuan 5
 Pertama saya akan menjelaskan Tugas Pertemuan ke 5 yaitu Membuat Program untuk menginputkan biodata yang terdiri dari Nama lengkap, Nickname, NPM, TTL, No Telp, dan Alamat :
 ![Tugas5](Foto/Latihan5.PNG)<br>
-Berikut <i>source codenya</i> atau klik link berikut ([Tugas 5 Python](p5_tugas.py))
+Berikut <i>source code</i> yang telah diberikan oleh Dosen saya atau klik link berikut ([Tugas 5 Python](p5_tugas.py))
 ```python
 print("Please enter your Full name : ")
 fullname=input()
@@ -45,11 +45,11 @@ fullname=input()
 ![Tugas 5](Foto/inputnama.PNG)<br>
 * Syntax atau perintah <i>fullname=input()</i> seperti di atas tadi adalah source code untuk membuat inputan/variable.<br>
 Maksud Variable disini adalah tempat menyimpan data, dan lokasi di memori yang digunakan untuk menyimpan nilai, sedangkan tipe data adalah jenis data yang tersimpan dalam variable.Variable bersifat <i>mutable</i> artinya nilainya bisa berubah-ubah.Yang berfungsi sebagai variable dalam source code diatas adalah fullname.<br><br>
-* Untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
+> Untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
 ```python
 print(270799)
 ```
-* Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi seperti di bawah ini. <br>
+> Maka hasilnya akan otomatis keluar angka yang kita inputkan tadi seperti di bawah ini. <br>
 ![Tugas 5](Foto/inputangka.PNG)<br><br>
 * Namun untuk syntax output angka dalam program ini kita hanya perlu menambahkan kata <i>int</i> sebelum kata input seperti di bawah ini. <br>
 ```python
@@ -60,14 +60,14 @@ npm=int(input())
 ![Tugas 5](Foto/npm.PNG)<br>
 
 * Langkah selanjutnya untuk menghasilkan output / mengisi inputan yang lainnya seperti Nickname, Born Place, Home Address, bisa mengikuti source code/syntax pengisian Fullname, sedangkan untuk Age, dan Phone Number bisa mengikuti syntax untuk penginputan NPM.<br>
-* Lalu untuk syntax/source code<br>
+> Lalu untuk syntax/source code :<br>
 ```python
 print("\nAssalamualaikum Wr, Wb.")
 ```
 * Fungsi <i>\n</i> pada syntax di atas adalah untuk memberi baris baru/enter/lebih sering dikenal newline.<br>
 * Sedangkan fungsi <i>print("...")</i> seperti yang sudah dibahas di atas, hasil dari syntax terserbut seperti di bawah ini.<br>
 ![Tugas 5](Foto/print.PNG)<br>
-* Yang terakhir untuk menampilkan semua hasil dari inputan di atas yaitu dengan mengetikkan syntax seperti di bawah<br>
+> Yang terakhir untuk menampilkan semua hasil dari inputan di atas yaitu dengan mengetikkan syntax seperti di bawah<br>
  ```python
 print(f"Let me introduce my self.My name is {fullname}, but you can call me {nickname}.My NPM's {npm}.I was born in {bornplace} and i am {age} years old. I am very glad if you want to invite my house in {address}.So, don't forget to call me before with the number {phonenumber}.")
 ```
@@ -80,5 +80,34 @@ Hasil dari output tersebut seperti berikut :<br>
 <br>
 
 ## 2. Tugas Pertemuan 6 - Lab 1
-Selanjutnya yang kedua saya akan menjelaskan tugas pertemuan ke 6 yaitu tentang mempelajari <b>Operator pada Python</b>.Berikut penjelasan singkat tentang Operator.<br>
+Selanjutnya yang kedua saya akan menjelaskan tugas pertemuan ke 6 yaitu tentang mempelajari <b>Operator pada Python</b>.<br>
 ![Tugas 6](Foto/operator.PNG)<br>
+Berikut <i>source code</i> yang telah diberikan oleh Dosen saya atau klik link berikut ([Tugas 6 - Lab 1](lab1.py))
+```python
+#penggunaan end
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('z')
+
+#penggunaan separator
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+```
+
+Berikut untuk penjelasannya : <br>
+* Penggunaan <i>end</i> digunakan untuk menambahkan karakter yang dicetak di akhir baris, atau lebih sering kita kenal dengan istilah <i>ganti baris</i>.Seperti contoh di bawah ini.<br>
+```python
+print('A', end='')
+print('B', end='')
+print('C', end='')
+```
+> Hasilnya akan seperti ini.<br>
+
