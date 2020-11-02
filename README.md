@@ -108,6 +108,23 @@ Berikut untuk penjelasannya : <br>
 print('A', end='')
 print('B', end='')
 print('C', end='')
+print()
+print('X')
+print('Y')
+print('z')
 ```
 > Hasilnya akan seperti ini.<br>
+![Tugas 6](Foto/end.PNG)<br>
+
+* Untuk penggunaan <i>separator</i> digunakan untuk pemisah, atau fungsinya sebagai perintah pemisah antar objek yang di cetak.Seperti contoh di bawah ini.<br>
+```python
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+```
+> Hasilnya akan seperti ini.<br>
+![Tugas 6](Foto/separator.PNG)<br>
 
