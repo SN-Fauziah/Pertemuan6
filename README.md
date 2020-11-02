@@ -1,5 +1,6 @@
 # Tugas Pertemuan ke 5 & 6 - Bahasa Pemrograman
-Repository ini dibuat untuk memenuhi tugas pertemuan 5 & 6 <br><br>
+Perkenalkan nama saya yang sering akrab di panggil Uci, disini saya membuat repository ini untuk memenuhi Tugas Pertemuan ke 5 & 6 bahasa Pemrograman.<br><br>
+
 Nama    : Siti Nur Fauziah<br>
 NIM     : 312010032<br>
 Kelas   : TI.20.B1<br>
@@ -8,7 +9,7 @@ Kelas   : TI.20.B1<br>
 | No | Description | Link|
 | ----- | ----- | ----- |
 | 1 | Tugas Pertemuan 5 | [Click Here](#tugas-pertemuan-5) |
-| 2 | Tugas Pertemuan 6 | [Click Here] |
+| 2 | Tugas Pertemuan 6 - Lab 1 | [Click Here]( |
 
 ## 1. Tugas Pertemuan 5
 Pertama saya akan menjelaskan Tugas Pertemuan ke 5 yaitu Membuat Program untuk menginputkan biodata yang terdiri dari Nama lengkap, Nickname, NPM, TTL, No Telp, dan Alamat :
@@ -178,3 +179,72 @@ print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 ```
 Maka setelah kita jalan kan semua syntax/source code tadi akan menghasilkan seperti ini :
 ![Tugas 6](Foto/hasil.PNG)
+<br>
+<hr>
+<br>
+
+## 4. Tugas Pertemuan 6 - Lab 1-2
+Terakhir untuk tugas pertemuan 6 ini saya akan menjelaskan tentang <i>String Format</i>.String formatting atau pemformatan string memungkinkan kita menyuntikkan item kedalm string daripada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
+![Tugas 6](Foto/string.PNG)<br>
+Berikut <i>source code</i> yang telah diberikan oleh Dosen saya atau klik link berikut ([Tugas 6 - Lab 1-2](p6_lab1.2.py))
+```python
+#string format
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**5)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+
+#string format
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10))
+```
+Berikut untuk penjelasannya :<br>
+> String Format 1
+* Pada syntax / source code string format 1 akan menampilkan output berupa 2 outputan.
+Yang pertama (sebelah kiri) akan menampilkan angka Urut dari angka 0 hingga angka 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
+Dengan ketentuan sebagai berikut, operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )
+Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10. dengan output sebagai berikut :
+1[Tugas 6](Foto/string1.PNG)<br>
+> String Format 2
+* Pada syntax atau source code string format 2 akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri).Dengan ketentuan <i>Alignment, padding, dan precesion dengan .format() dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri, parameter pembulatan dan banyak lagi</i>.Contoh lain sebagai berikut :
+```python
+print('{0:7} | {2:7}'.format('Barang','QTY'))
+print('{0:7} | {2:7}'.format('Sendok','2'))
+print('{0:7} | {2:7}'.format('Garpu','17'))
+```
+Hasil dari source code di atas adalah :
+![Tugas 6](Foto/contoh.PNG)<br>
+
+Kita juga dapat menggunakan opsi opsional <, ^, atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan .format() sebagai berikut :
+```python
+print('{:<27}{:^27}{:>27}'.format('Left','Middle','Right'))
+print('{:<27}{:^27}{:>27}'.format(27,07,99))
+```
+Hasil dari source code di atas adalah :
+![Tugas 6](Foto/contoh2.PNG)<br>
+
+* Sedangkan untuk hasil String Format 2 sesuai dengan tugas yang sudah diberikan oleh Dosen saya adalah seperti di bawah ini :
+![Tugas 6](Foto/string2.PNG)<br>
+
+Demikian penjelasan yang bisa saya sampaikan pada Tugas Pertemuan 5 & 6 yang sudah Dosen saya berikan, semoga dari penjelasan di atas dapat berguna bagi kawan - kawan yang kebetulan mungkin ada tugas yang sama, dan tentunya semua syntax/source code di atas bisa di implementasikan.
+Mohon maaf apabila ada salah ketik, atau ada penjelasan yang kurang di mengerti.
+
+Terimakasih :)
+ 
+<hr>
+<br>
