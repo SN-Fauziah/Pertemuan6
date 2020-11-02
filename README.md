@@ -10,7 +10,7 @@ Kelas   : TI.20.B1<br>
 | 1 | Tugas Pertemuan 5 | [Click Here](#tugas-pertemuan-5) |
 | 2 | Tugas Pertemuan 6 | [Click Here] |
 
-## Tugas Pertemuan 5
+## 1. Tugas Pertemuan 5
 Pertama saya akan menjelaskan Tugas Pertemuan ke 5 yaitu Membuat Program untuk menginputkan biodata yang terdiri dari Nama lengkap, Nickname, NPM, TTL, No Telp, dan Alamat :
 ![Tugas5](Foto/Latihan5.PNG)<br>
 Berikut <i>source codenya</i> atau klik link berikut ([Tugas 5 Python](p5_tugas.py))
@@ -44,7 +44,7 @@ fullname=input()
 * Source code di atas berfungsi untuk mencetak hasil / output berupa string " Please enter your full name : ", dan secara otomatis kita akan bisa mengisi / input nama kita.Seperti gambar di bawah ini <br>
 ![Tugas 5](Foto/inputnama.PNG)<br>
 * Syntax atau perintah <i>fullname=input()</i> seperti di atas tadi adalah source code untuk membuat inputan/variable.<br>
-Maksud Variable disini adalah tempat menyimpan data, dan lokasi di memori yang digunakan untuk menyimpan nilai, sedangkan tipe data adalah jenis datayang tersimpan dalam variable.Variable bersifat <i>mutable</i> artinya nilainya bisa berubah-ubah.Yang berfungsi sebagai variable dalam source code diatas adalah fullname.<br><br>
+Maksud Variable disini adalah tempat menyimpan data, dan lokasi di memori yang digunakan untuk menyimpan nilai, sedangkan tipe data adalah jenis data yang tersimpan dalam variable.Variable bersifat <i>mutable</i> artinya nilainya bisa berubah-ubah.Yang berfungsi sebagai variable dalam source code diatas adalah fullname.<br><br>
 * Untuk menampilkan output berupa integer atau angka kita tidak perlu menambahkan tanda petik dua ("input") di dalam kurung jadi kita bisa langsung saja untuk menginputkan angkanya.<br>
 ```python
 print(270799)
@@ -75,3 +75,9 @@ print(f"Let me introduce my self.My name is {fullname}, but you can call me {nic
 * Sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable.<br>
 Hasil dari output tersebut seperti berikut :<br>
 ![Tugas 5](Foto/f.PNG)<br>
+<br>
+<hr>
+<br>
+## 2. Tugas Pertemuan 6 - Lab 1
+Selanjutnya yang kedua saya akan menjelaskan tugas pertemuan ke 6 yaitu tentang mempelajari <b>Operator pada Python</b>.Berikut penjelasan singkat tentang Operator.<br>
+![Tugas 6](Foto/operator.PNG)<br>
