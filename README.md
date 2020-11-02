@@ -240,11 +240,11 @@ print('{:<27}{:^27}{:>27}'.format(27,07,99))
 Hasil dari source code di atas adalah :<br>
 ![Tugas 6](Foto/contoh2.PNG)<br>
 
-* Sedangkan untuk hasil String Format 2 sesuai dengan tugas yang sudah diberikan oleh Dosen saya adalah seperti di bawah ini :
+* Sedangkan untuk hasil String Format 2 sesuai dengan tugas yang sudah diberikan oleh Dosen saya adalah seperti di bawah ini :<br>
 ![Tugas 6](Foto/string2.PNG)<br>
 
 Demikian penjelasan yang bisa saya sampaikan pada Tugas Pertemuan 5 & 6 yang sudah Dosen saya berikan, semoga dari penjelasan di atas dapat berguna bagi kawan - kawan yang kebetulan mungkin ada tugas yang sama, dan tentunya semua syntax/source code di atas bisa di implementasikan.
-Mohon maaf apabila ada salah ketik, atau ada penjelasan yang kurang di mengerti.
+Mohon maaf apabila ada salah ketik, atau ada penjelasan yang kurang dimengerti.
 
 Terimakasih :)
  
