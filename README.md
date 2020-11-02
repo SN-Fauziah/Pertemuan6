@@ -78,6 +78,7 @@ Hasil dari output tersebut seperti berikut :<br>
 <br>
 <hr>
 <br>
+
 ## 2. Tugas Pertemuan 6 - Lab 1
 Selanjutnya yang kedua saya akan menjelaskan tugas pertemuan ke 6 yaitu tentang mempelajari <b>Operator pada Python</b>.Berikut penjelasan singkat tentang Operator.<br>
 ![Tugas 6](Foto/operator.PNG)<br>
