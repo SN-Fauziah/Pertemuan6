@@ -145,8 +145,36 @@ print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
 #konversi nilai variable
 a=int(a)
 b=int(b)
-print("hasil pejumlahan {1}+{0}".format(a,b) %(a+b))
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 ```
-Namun setelah saya jalankan source code tersebut terjadi TypeError seperti gambar di bawah ini :<br>
+Namun setelah saya jalankan source code tersebut terjadi <i>TypeError</i> seperti gambar di bawah ini :<br>
+![Tugas 6](Foto/konversi.PNG)<br>
+Lebih tepatnya terdapat eror pada file python yang kita buat, di baris ke 5 / line 5, yaitu <i>print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b)),%d format: a number is required, not str </i>, hal ini disebabkan karena pada variable a tipe datanya <i>string</i>, sedangkan yang dibaca oleh system adalah <i>integer/numbering</i>.<br>
 
+Cara untuk memperbaiki error tersebut saya akan jelaskan seperti di bawah ini.<br>
+* Pertama kita lihat pada baris ke 5 (dinotifikasi terbaca bahwa error terletak pada baris ke 5), yaitu pada pemformatan <b>.format()</b> adalah interger, Sedangkan jika berupa string maka akan ada tanda petik dua ("..") pada pemformatan <b>.format()</b><br>
+* Kedua kita akan terfokus pada variable a dan b.<br>
+Pada line 1 tertulis syntax : a=input("Masukkan Nilai A : ")<br>
+Sedangkan pada line 2 tertulis sytax : b=input("Masukkan Nilai B : ")<br>
+> Untuk membuat inputan berupa integer/angka harus ditambahkan tipe data <i>int()</i> pada format <input()</i>. Yang seharusnya diketik adalah :
+```python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+```
+Atau kita ketikkan ulang semua source code yang di atas sebelumnya dengan menambahkan tipe data interger.<br>
+```python
+a=int(input("masukkan nilai a:"))
+b=int(input("masukkan nilai b:"))
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Maka setelah kita jalan kan semua syntax/source code tadi akan menghasilkan seperti ini :
+![Tugas 6](Foto/hasil.PNG)
