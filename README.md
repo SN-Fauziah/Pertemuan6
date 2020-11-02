@@ -127,4 +127,26 @@ print(w, x, y, z, sep='-----')
 ```
 > Hasilnya akan seperti ini.<br>
 ![Tugas 6](Foto/separator.PNG)<br>
+<br>
+<hr>
+<br>
+
+## 3. Pertemuan 6 - Lab 2
+Untuk tugas Pertemuan ke 6 - Lab 2 saya akan menjelaskan tentang <i>Konversi Nilai Variable</i>.<br>
+![Tugas 6](Foto/lab2.PNG)<br>
+Berikut <i>source code</i> yang telah diberikan oleh Dosen saya atau klik link berikut ([Tugas 6 - Lab 2](p6_lab2.py))
+```python
+a=input("masukkan nilai a:")
+b=input("masukkan nilai b:")
+print("variable a=",a)
+print("variable b=",b)
+print("hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#konversi nilai variable
+a=int(a)
+b=int(b)
+print("hasil pejumlahan {1}+{0}".format(a,b) %(a+b))
+print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+Namun setelah saya jalankan source code tersebut terjadi TypeError seperti gambar di bawah ini :<br>
 
